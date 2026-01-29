@@ -3,14 +3,31 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
-
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 2px solid blue; */
 }
 
 .navbar{
     width: 70%;
     height: 50px;
+    position: relative;
+    align-self: center;
     background-color: #05050A;
     border: 1px solid #10141A;
     box-shadow: 0.5px 0.5px 0.5px 0.5px #10141A;
+}
+
+
+.footer{
+    width: 100vw;
+    height: 50px;
+    background-color: #05050A;
+    /* border: 1px solid #10141A; */
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #10141A;   
+    position: relative;
+    top:945px ;
+    justify-self: end;
+    /* bottom: 100%; */
+
 }
